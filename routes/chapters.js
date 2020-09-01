@@ -3,7 +3,7 @@ const router = express.Router();
 
 const chaptersHandler = require('./handler/chapters');
 
-// Router Courses file with coursesHandler
+// Router Chapters file with chaptersHandler
 router.get('/', chaptersHandler.getAll);
 router.get('/:id', chaptersHandler.get);
 
